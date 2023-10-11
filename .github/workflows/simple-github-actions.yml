@@ -1,6 +1,6 @@
 name: simple-github-actions
 run-name: ${{ github.actor }} is building a simple GitHub Actions
-on: [push]
+on: [pull_request]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
